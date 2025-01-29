@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en"  data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- google font cdn -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- Tailwind daisyui cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        .font-poppins {
+            font-family: 'Poppins', sans-serif;
+        }
+    </style>
+
+     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+     <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+                'bike-primary': '#E76F51',
+                'bike-primary-bg': 'rgba(231,111,81,0.1)',
+                'imp': '#f9f9f9' ,
+                'btn-clr': '#006d56'
+
+              }
+            }
+          }
+        }
+      </script>
+</head>
+
+<body class="font-poppins">
+    <!-- header section-->
+    <header class="container mx-auto">
+        <nav>
+            <div class="navbar bg-base-100">
+                <div class="flex-1"> 
+                <a class="font-bold text-4xl ">Bangladesh 2.0</a>
+                </div>
+                <div class="">
+                    <a class="btn  text-btn-clr text-3xl">Sign In</a>
+                </div>
+            </div>    
+        </nav>
+
+        
+    <!-- banner -->
+    <div class="banner mt-10">
+        <div class="space-y-7">
+            <h2>Bangladesh 2.0</h2>
+            <h1 class="text-4xl font-bold">Idea, innovation, vision and challenges in New Bangladesh.</h1>
+            <div class="container">
+                <button class="bg-btn-clr text-white rounded-lg font-bold p-5">Explore New Bangladesh</button>
+            </div>
+        </div>
+        <img src="images/hero.png" alt="">
+    </div>
+    </header>
+
+    <!--main section-->
+    <main class="container  mx-auto">
+        <!--pillars-->
+        <section  class="my-24">
+            <h3 class="text-5xl font-bold text-center mb-12">Pillars of "Bangladesh 2.0"</h3>
+
+            <div class="flex space-x-5">
+
+                <!-- card1 -->
+                <div class="card  shadow-xl">
+                    <figure>
+                      <img
+                        src="images/card-icon.png"
+                        alt="Shoes" />
+                    </figure>
+                    <div class="card-body">
+                      <h2 class="card-title font-extrabold">Innovation</h2>
+                      <p>Explore the vibrant colors of life and embrace the journey with endless possibilities.</p>
+                    </div>
+                </div>
+
+                <!-- card1 -->
+                <div class="card bg-base-100  shadow-xl">
+                    <figure>
+                      <img
+                        src="images/card-icon.png"
+                        alt="Shoes" />
+                    </figure>
+                    <div class="card-body">
+                      <h2 class="card-title font-extrabold">Innovation</h2>
+                      <p>Explore the vibrant colors of life and embrace the journey with endless possibilities.</p>
+                    </div>
+                </div>
+
+                <!-- card1 -->
+                <div class="card bg-base-100  shadow-xl">
+                    <figure>
+                      <img
+                        src="images/card-icon.png"
+                        alt="Shoes" />
+                    </figure>
+                    <div class="card-body">
+                      <h2 class="card-title font-extrabold">Innovation</h2>
+                      <p>Explore the vibrant colors of life and embrace the journey with endless possibilities.</p>
+                    </div>
+                </div>
+
+                <!-- card1 -->
+                <div class="card bg-base-100  shadow-xl ">
+                    <figure>
+                      <img
+                        src="images/card-icon.png"
+                        alt="Shoes" />
+                    </figure>
+                    <div class="card-body">
+                      <h2 class="card-title font-extrabold">Innovation</h2>
+                      <p>Explore the vibrant colors of life and embrace the journey with endless possibilities.</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!--The Vision of Future-->
+        <section  class="my-24">
+            <h2 class="text-5xl font-bold text-center mb-12">The Vision of Future</h2>
+            <p class="text-xl text-center font-light">Bangladesh 2.0 aims to redefine the nation’s trajectory by embracing cutting-edge technology, promoting inclusive growth, and ensuring sustainability. With initiatives in renewable energy, digital transformation, and robust infrastructure, the country is set to become a global model of development.
+
+            </p>
+
+            <!--card section-->
+            <div class="flex space-x-5 mt-10 ">
+
+                <!-- card1 -->
+                <div class="card  shadow-xl p-5 bg-cyan-100">
+                    <figure>
+                      <img
+                        src="images/card-icon.png"
+                        alt="Shoes" />
+                    </figure>
+                    <div class="card-body">
+                      <h2 class="card-title font-extrabold">Innovation</h2>
+                      <p>Explore the vibrant colors of life and embrace the journey with endless possibilities.</p>
+                      <div class="bg-cyan-500 w-1/4 mt-5">
+                        <button>Learn More</button>
+                      </div>
+                    </div>
+                </div>
+
+                <!-- card2 -->
+                <div class="card bg-base-100  shadow-xl p-5 bg-green-100">
+                    <figure>
+                      <img
+                        src="images/card-icon.png"
+                        alt="Shoes" />
+                    </figure>
+                    <div class="card-body">
+                      <h2 class="card-title font-extrabold">Innovation</h2>
+                      <p>Explore the vibrant colors of life and embrace the journey with endless possibilities.</p>
+                      <div class="bg-green-500 w-1/4 mt-5">
+                        <button>Learn More</button>
+                      </div>
+                    </div>
+                </div>
+
+                <!-- card3 -->
+                <div class="card bg-base-100  shadow-xl p-5 bg-yellow-100	">
+                    <figure>
+                      <img
+                        src="images/card-icon.png"
+                        alt="Shoes" />
+                    </figure>
+                    <div class="card-body">
+                      <h2 class="card-title font-extrabold">Innovation</h2>
+                      <p>Explore the vibrant colors of life and embrace the journey with endless possibilities.</p>
+                      <div class="bg-yellow-500 w-1/4 mt-5">
+                        <button>Learn More</button>
+                      </div>
+                    </div>
+                </div>
+        </section>
+
+        <section>
+            <div class="koma">
+                <div>
+                    <img src="images/quote-bg.png">
+                </div>
+                <h1>
+                    "Dr. Muhammad Yunus, a Nobel Laureate and the pioneer of microfinance, is widely celebrated for his revolutionary efforts in eradicating poverty and empowering underserved communities. As the founder of Grameen Bank, his innovative approach to lending has transformed millions of lives, promoting financial inclusion and social progress on a global scale. A visionary leader, Dr. Yunus continues to inspire change through his advocacy for sustainable development and social entrepreneurship."
+                </h1>    
+            </div>
+            
+        </section>
+
+        <!-- News section-->
+
+        <section class="my-24">
+
+            <div>
+                <h2 class="text-5xl font-bold text-center mb-12">Recent News</h4>
+                <h1 class="">Bangladesh 2.0 aims to redefine the nation’s trajectory by embracing cutting-edge technology, promoting inclusive growth, and ensuring sustainability. With initiatives in renewable energy, digital transformation, and robust infrastructure, the country is set to become a global model of development.
+
+                </h1>
+            </div>
+            <div class="hero bg-base-200 mt-10">
+                <div class="hero-content flex-col lg:flex-row space-x-10">
+                  <img
+                    src="images/satelite.png"
+                    class="max-w-sm rounded-lg shadow-2xl" />
+                    <div class="news-content space-y-5">
+                        <h1 class="text-4xl font-bold">Bangladesh Launches New Satellite</h1>
+                        <img src="images/al-jazeera.png" alt="">
+                        <div class="meta">Date: 05/01/2025 | Time: 10.25 PM</div>
+                        <p>Not until the creation and maintenance of decent conditions of life for all people are
+                            recognized
+                            and accepted as a common obligation of all people and all countries...</p>
+                        <a href="#" class="read-more">Read More</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 2nd-->
+            <div class="hero bg-base-200 mt-10">
+                <div class="hero-content flex-col lg:flex-row space-x-10">
+                    <div class="news-content space-y-5">
+                        <h1 class="text-4xl font-bold">Bangladesh Launches New Satellite</h1>
+                        <img src="images/al-jazeera.png" alt="">
+                        <div class="meta">Date: 05/01/2025 | Time: 10.25 PM</div>
+                        <p>Not until the creation and maintenance of decent conditions of life for all people are
+                            recognized
+                            and accepted as a common obligation of all people and all countries...</p>
+                        <a href="#" class="read-more">Read More</a>
+                    </div>
+                  <img
+                    src="images/satelite.png"
+                    class="max-w-sm rounded-lg shadow-2xl" />
+                    
+                </div>
+            </div>
+
+
+            <!--3rd-->
+            <div class="hero bg-base-200 mt-10">
+                <div class="hero-content flex-col lg:flex-row space-x-10">
+                  <img
+                    src="images/satelite.png"
+                    class="max-w-sm rounded-lg shadow-2xl" />
+                    <div class="news-content space-y-5">
+                        <h1 class="text-4xl font-bold">Bangladesh Launches New Satellite</h1>
+                        <img src="images/al-jazeera.png" alt="">
+                        <div class="meta">Date: 05/01/2025 | Time: 10.25 PM</div>
+                        <p>Not until the creation and maintenance of decent conditions of life for all people are
+                            recognized
+                            and accepted as a common obligation of all people and all countries...</p>
+                        <a href="#" class="read-more">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- donate section -->
+    <div class="donate-header">
+        <h1 class="text-5xl font-bold text-center mb-12">Donate today</h1>
+        <p class="font-normal text-2xl">Bangladesh 2.0 aims to redefine the nation’s trajectory by embracing cutting-edge technology, promoting
+            inclusive growth, and ensuring sustainability. With initiatives in renewable energy, digital transformation,
+            and robust infrastructure.</p>
+    </div>
+    <div class="donate-container">
+        <div class="donation-options">
+            <button>100 Taka</button>
+            <button class="active">200 Taka</button>
+            <button>500 Taka</button>
+            <button>1000 Taka</button>
+        </div>
+
+        <div class="custom-amount">
+            <input type="number" placeholder="Other Amount (Taka)">
+        </div>
+
+        <button class="donate-button">Done Now</button>
+    </div>
+  
+    
+        <!-- new setteler-->
+    <section class="my-24">
+
+        <div class="subscribe-section  bg-cyan-100">
+            <h1 class="text-5xl font-bold text-center mb-12 p-5">Subscribe Newsletter</h1>
+            <p class="font-normal text-2xl text-center px-40">
+                Bangladesh 2.0 aims to redefine the nation’s trajectory by embracing
+                cutting-edge technology, promoting inclusive growth.
+            </p>
+            <div class="subscribe-form text-center">
+                <input class="w-1/4 bg-white lg-rounded my-5" type="email" placeholder="Enter your email here" />
+                <button class="bg-green-400" type="button">Subscribe</button>
+            </div>
+            <!-- <p class="text-center">We promise not to spam you!</p> -->
+        </div>
+    </section>    
+    
+</main>
+    
+    <!-- footer-->
+    <footer>
+        <footer class="footer footer-center bg-white text-primary-content p-10">
+            <h1 class="text-black text-3xl">Bangladesh 2.0</h1>
+            <nav>
+              <div class="grid grid-flow-col gap-4">
+                <a>
+                 <img src="images/facebook.png">
+                </a>
+                <a>
+                    <img src="images/instagram.png">
+                </a>
+                <a>
+                    <img src="images/x.png">
+                </a>
+              </div>
+            </nav>
+          </footer>
+
+
+     </footer>
+
+
+</body>
+</html>
